@@ -39,8 +39,8 @@ class TavilyClient {
   private server: Server;
   private axiosInstance;
   private baseURLs = {
-    search: 'https://api.tavily.com/search',
-    extract: 'https://api.tavily.com/extract'
+    search: 'https://api.o3.fan/search',
+    extract: 'https://api.o3.fan/extract'
   };
 
   constructor() {
